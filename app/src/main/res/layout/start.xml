@@ -1,17 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFF"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="us.taleby.dashboard.StartActivity">
+    tools:ignore="MissingPrefix">
 
     <TextView
-        android:text="Hello World!"
+        fontPath="fonts/nanum.otf"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/center_divider"
+        android:text="talebyus"
+        android:textColor="@color/textColorPrimaryDark"
+        android:textSize="56sp" />
+
+    <RelativeLayout
+        android:id="@+id/center_divider"
+        android:layout_width="2dp"
+        android:layout_height="48dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/divider" />
+
+    <TextView
+        fontPath="fonts/nanum_ul.otf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/center_divider"
+        android:text="dashboard"
+        android:textColor="@color/textColorSecondaryDark"
+        android:textSize="56sp" />
 </RelativeLayout>
