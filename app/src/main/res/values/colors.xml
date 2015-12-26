@@ -3,4 +3,16 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="divider">#1E000000</color>
+
+    <color name="textColorPrimaryDark">#DE000000</color>
+    <color name="textColorSecondaryDark">#89000000</color>
+    <color name="textColorDisabledDark">#61000000</color>
+
+    <color name="textColorPrimaryLight">#FFF</color>
+    <color name="textColorSecondaryLight">#B3FFFFFF</color>
+    <color name="textColorDisabledLight">#4DFFFFFF</color>
+
+    <color name="transparent">#00000000</color>
 </resources>
