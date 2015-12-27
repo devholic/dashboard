@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="MissingPrefix">
+
+    <RelativeLayout
+        android:id="@+id/status"
+        android:layout_width="2dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/dataWrap"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp" />
+
+    <ImageView
+        android:id="@+id/userImg"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignTop="@+id/dataWrap"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/status" />
+
+    <LinearLayout
+        android:id="@+id/dataWrap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toRightOf="@+id/userImg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            fontPath="fonts/nanum_ul.otf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="github"
+            android:textColor="@color/textColorPrimaryDark"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/user"
+            fontPath="fonts/nanum_ul.otf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="github"
+            android:textColor="@color/textColorSecondaryDark"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/time"
+            fontPath="fonts/nanum_ul.otf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="github"
+            android:textColor="@color/textColorSecondaryDark"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+</RelativeLayout>
