@@ -14,5 +14,9 @@
     <color name="textColorSecondaryLight">#B3FFFFFF</color>
     <color name="textColorDisabledLight">#4DFFFFFF</color>
 
+    <color name="statusOpen">#4CAF50</color>
+    <color name="statusClosed">#F44336</color>
+    <color name="statusMerged">#673AB7</color>
+
     <color name="transparent">#00000000</color>
 </resources>
