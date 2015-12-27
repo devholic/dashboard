@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_toLeftOf="@+id/center_divider"
-        android:text="talebyus"
+        android:text="@string/team_name"
         android:textColor="@color/textColorPrimaryDark"
         android:textSize="56sp" />
 
