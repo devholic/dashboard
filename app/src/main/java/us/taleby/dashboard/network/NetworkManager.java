@@ -1,4 +1,4 @@
-package us.taleby.dashboard;
+package us.taleby.dashboard.network;
 
 import com.squareup.okhttp.OkHttpClient;
 
